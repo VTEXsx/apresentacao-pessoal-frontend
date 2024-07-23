@@ -1,16 +1,13 @@
+import Header from "./components/Header";
 
-import './App.css'
 
 function App() {
-
   return (
     <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Desafio de apresentação Pessoal do Projeto Frontend fusion</p>
-      </main>
+      <Header />
+      
     </>
   );
 }
 
-export default App
+export default App;
