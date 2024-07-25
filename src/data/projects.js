@@ -1,13 +1,7 @@
-import acs from "../assets/images/projects/acs.mp4";
-import calInvest from "../assets/images/projects/calInvest.mp4";
-import catalogo from "../assets/images/projects/catalogo.mp4";
-import planner from "../assets/images/projects/planner.mp4";
-import softPet from "../assets/images/projects/softPet.mp4";
-
 export const projectsItems = [
   {
     id: 1,
-    src: acs,
+    src: "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/vitor/projects/acs.mp4",
     title: "ACS - Site institucional",
     about:
       "Site institucional criado voluntariamente para a Associação Cultural Surubinense, com o intuito de divulgar a cultura e história da cidade de Surubim-PE e seus projetos.",
@@ -17,7 +11,7 @@ export const projectsItems = [
   },
   {
     id: 2,
-    src: softPet,
+    src: "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/vitor/projects/softPet.mp4",
     title: "SoftPet - Sistema de PetShop",
     about:
       "Sistema de gerenciamento de petshop, desenvolvido a partir de um design figma, com o intuito de facilitar a gestão de um petshop, com funcionalidades de cadastro de clientes, animais, serviços e relatórios.",
@@ -38,7 +32,7 @@ export const projectsItems = [
   },
   {
     id: 3,
-    src: catalogo,
+    src: "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/vitor/projects/catalogo.mp4",
     title: "Catalogo",
     about:
       "Catalogo de produtos, com o intuito de facilitar a visualização de produtos e suas informações, adicionar ao carrinho e fazer pedido enviando diretamente para o Whatsapp do dono.",
@@ -48,7 +42,7 @@ export const projectsItems = [
   },
   {
     id: 4,
-    src: calInvest,
+    src: "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/vitor/projects/calInvest.mp4",
     title: "Calculadora de Investimentos",
     about:
       "Calculadora de investimentos, com o intuito de ajudar na escolha do melhor investimento para o seu dinheiro, com base no valor inicial, aporte mensal, tempo de investimento e rentabilidade.",
@@ -58,7 +52,7 @@ export const projectsItems = [
   },
   {
     id: 5,
-    src: planner,
+    src: "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/vitor/projects/planner.mp4",
     title: "Plan.ner - Planejador de viajens",
     about:
       "Aplicação para planejamento de viagens, com o intuito de ajudar na organização de viagens, com funcionalidades de adicionar destinos, datas, atividades, convidar amigos, orçamento e visualização de informações.",
