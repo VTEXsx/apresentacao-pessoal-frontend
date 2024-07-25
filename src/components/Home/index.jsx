@@ -8,13 +8,15 @@ function Home() {
     <section id="home" className="home w-full pt-40 pb-20 text-white font-bold">
       <div className="w-[90%] xl:w-[70%] h-full mx-auto">
         <div className="h-full flex flex-col  items-center justify-center text-center gap-2">
-          <h2 className="text-2xl font-condensedItalic">Vítor Silva</h2>
-          <h1 className="text-4xl md:text-5xl gradient-text font-condensed">
+          <h2 className="text-3xl font-condensedItalic">Vítor Silva</h2>
+          <h1 className="text-5xl md:text-6xl gradient-text font-condensed">
             Desenvolvedor Front End
           </h1>
-          <p className="text-lg tracking-wider md:w-3/5 lg:w-1/2 font-condensedItalic">
-            especialidade em React, Redux, Vite, NextJS, JavaScript, Tailwind
-            CSS e brinco no Backend com NodeJS
+          <p className="text-xl tracking-wider md:w-4/5 lg:w-3/5 font-condensedItalic">
+            Precisa de um desenvolvedor front end para transformar suas ideias em experiências incríveis?
+          </p>
+          <p className="text-base text-blue-300 tracking-wider md:w-3/5 lg:w-1/2 font-condensedItalic">
+            Entre em contato comigo! Vamos trabalhar juntos!
           </p>
           <div className="flex items-center justify-center gap-5 mt-5">
             <BoxLinks href={"https://www.linkedin.com/in/devsvitor/"}>

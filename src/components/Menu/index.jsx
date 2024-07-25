@@ -2,16 +2,19 @@ function Menu() {
   return (
     <ul className="text-white flex items-center justify-center gap-7 font-bold font-condensed">
       <li>
-        <a className="hover:text-red" href="#home">Home</a>
+        <a className="hover:text-blue-600" href="#home">
+          Home
+        </a>
       </li>
       <li>
-        <a className="hover:text-red" href="#about">Sobre mim</a>
+        <a className="hover:text-blue-600" href="#about">
+          Sobre Mim
+        </a>
       </li>
       <li>
-        <a className="hover:text-red" href="#curiosities">Curiosidades</a>
-      </li>
-      <li>
-        <a className="hover:text-red" href="#motivation">Motivações</a>
+        <a className="hover:text-blue-600" href="#projects">
+          Meus Projetos
+        </a>
       </li>
     </ul>
   );
