@@ -1,11 +1,20 @@
 /* eslint-disable react/prop-types */
+import { useRef } from "react";
+import { AnimationBottom } from "../../animation/animation";
+import { ResetAnimationBottom } from "../../animation/resetAnimation";
+import useIntersectionObserver from "../../intersection";
 import Tag from "../Tags";
 
-const ProjectBox = ({item}) => {
+const ProjectBox = ({ item }) => {
   const par = item.id % 2;
+  const BoxRef = useRef(null);
+
+  useIntersectionObserver(BoxRef, AnimationBottom, ResetAnimationBottom);
+
   return (
     <div
-      className={`w-full  flex flex-col  gap-5 ${
+      ref={BoxRef}
+      className={`w-full flex opacity-0  flex-col gap-5  ${
         par === 0 ? "md:flex-row-reverse" : "md:flex-row"
       }`}
     >
